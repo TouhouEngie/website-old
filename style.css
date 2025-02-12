@@ -1,0 +1,66 @@
+body {
+  background-color: #121212;
+  color: #FFFFFF;
+  font-family: Verdana;
+}
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #575757;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  text-align: center;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 200px;
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#homebutton {
+  height: 50px;
+  width: 50px;
+}
+
+footer {
+  font-size: 10px;
+}
+
+input {
+  background-color: #717171;
+  border: 2px;
+  border-color: #7a5af5;
+  font-family: Tahoma;
+}
+
+#hal {
+  height: 5%;
+  width: 5%;
+}  
+
